@@ -1,69 +1,68 @@
-export type SiteConfig = typeof siteConfig;
-
 export const siteConfig = {
-	name: "Next.js + NextUI",
-	description: "Make beautiful websites regardless of your design experience.",
-	navItems: [
-		{
-			label: "Home",
-			href: "/",
-		},
+  name: 'هم راه',
+  description: 'خدمات امداد خودرو در استان اصفهان و تمام مسیر های حومه',
+  navItems: [
     {
-      label: "Docs",
-      href: "/docs",
+      label: 'راه یار',
+      href: '/',
     },
     {
-      label: "Pricing",
-      href: "/pricing",
+      label: 'درباره ما',
+      href: '/aboutUs',
     },
     {
-      label: "Blog",
-      href: "/blog",
+      label: 'خدمات ما',
+      href: '/requestService',
     },
     {
-      label: "About",
-      href: "/about",
-    }
-	],
-	navMenuItems: [
-		{
-			label: "Profile",
-			href: "/profile",
-		},
-		{
-			label: "Dashboard",
-			href: "/dashboard",
-		},
-		{
-			label: "Projects",
-			href: "/projects",
-		},
-		{
-			label: "Team",
-			href: "/team",
-		},
-		{
-			label: "Calendar",
-			href: "/calendar",
-		},
-		{
-			label: "Settings",
-			href: "/settings",
-		},
-		{
-			label: "Help & Feedback",
-			href: "/help-feedback",
-		},
-		{
-			label: "Logout",
-			href: "/logout",
-		},
-	],
-	links: {
-		github: "https://github.com/nextui-org/nextui",
-		twitter: "https://twitter.com/getnextui",
-		docs: "https://nextui.org",
-		discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev"
-	},
+      label: 'بلاگ ما',
+      href: '/blog',
+    },
+  ],
+  navMenuItems: [
+    {
+      label: 'خانه',
+      href: '/',
+    },
+    {
+      label: 'درباره ما',
+      href: '/aboutUs',
+    },
+    {
+      label: 'بلاگ ما',
+      href: '/blog',
+    },
+    {
+      label: 'خدمات ما',
+      href: '/requestService',
+    },
+  ],
+  footerCoItems: [
+    {
+      label: 'درباره ما',
+      href: '/aboutUs',
+    },
+    {
+      label: 'فرصت های شغلی',
+      href: '/careers',
+    },
+    {
+      label: 'جشنواره ها',
+      href: '/news',
+    },
+  ],
+  footerServiceItems: [
+    {
+      label: 'درخواست امداد فوری',
+      href: '/requestService',
+    },
+    {
+      label: 'فرصت های شغلی',
+      href: '/careers',
+    },
+    {
+      label: 'جشنواره ها',
+      href: '/news',
+    },
+  ],
 };

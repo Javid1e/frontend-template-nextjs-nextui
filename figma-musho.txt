@@ -1,0 +1,11 @@
+Design a user interface for a Persian (RTL) website with light theme for a roadside assistance company operating in Isfahan province and its surrounding highways.
+that landing page Must Have 8 sections :
+Hero Section,
+Online Assistance Request Section And Instruction,
+All Services Section,
+About Us Summary with read more Button Section,
+FAQ Section,
+Image or Video Gallery Section,
+Customer Reviews Section,
+Contact Us Section,
+
