@@ -1,10 +1,8 @@
 import '@/styles/globals.css';
 import { Metadata } from 'next';
 import { siteConfig } from '@/config/site';
-import { IranYekan } from '@/config/fonts';
+import { IranSans } from '@/config/fonts';
 import { Providers } from './providers';
-import { Navbar } from '@/components/utils/navbar';
-import { Footer } from '@/components/utils/Footer';
 import clsx from 'clsx';
 import React from 'react';
 
@@ -36,16 +34,14 @@ export default function RootLayout({
       <body
         className={clsx(
           'min-h-screen bg-primary-50 shadow-xl font-sans antialiased',
-          IranYekan.variable
+          IranSans.variable
         )}
       >
         <Providers themeProps={{ attribute: 'class', defaultTheme: 'light' }}>
           <div className='relative flex flex-col h-screen'>
-            <Navbar />
             <main className='container mx-auto max-w-7xl pt-16 px-6 flex-grow'>
               {children}
             </main>
-            <Footer />
           </div>
         </Providers>
       </body>
