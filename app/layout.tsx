@@ -1,7 +1,6 @@
 import '@/styles/globals.css';
 import { Metadata } from 'next';
 import { siteConfig } from '@/config/site';
-import { IranSans } from '@/config/fonts';
 import { Providers } from './providers';
 import clsx from 'clsx';
 import React from 'react';
@@ -33,8 +32,7 @@ export default function RootLayout({
       <head />
       <body
         className={clsx(
-          'min-h-screen bg-primary-50 shadow-xl font-sans antialiased',
-          IranSans.variable
+          'min-h-screen bg-primary-50 shadow-xl font-sans antialiased'
         )}
       >
         <Providers themeProps={{ attribute: 'class', defaultTheme: 'light' }}>
