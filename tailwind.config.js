@@ -11,7 +11,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['var(--font-iran-sans)'],
+        iransans: ['var(--font-iran-sans)'],
+        iranyekan: ['var(--font-iran-yekan)'],
       },
     },
   },
